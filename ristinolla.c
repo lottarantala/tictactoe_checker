@@ -3,27 +3,6 @@
 
 int8_t tictactoe_check(int8_t * gameboard, int win_len);
 
-/*
-int main(void){
-    int testi = 0;
-    int8_t kentta[] = {
-        0,1,2,0,1,1,0,0,0,0,
-        0,1,0,2,0,0,0,0,0,0,
-        0,1,1,0,2,0,0,0,0,0,
-        0,1,1,0,2,2,0,0,0,0,
-        0,1,0,0,0,2,2,0,0,0,
-        0,1,0,0,0,0,0,2,0,0,
-        0,0,0,0,0,0,0,0,0,0,
-        0,1,0,0,0,0,0,0,0,0,
-        0,2,0,0,0,0,0,0,0,0,
-        0,1,0,0,0,0,0,0,0,0};
-
-    testi = tictactoe_check(kentta, 6);
-    printf("voittaja %d\n", testi);
-    return 0;
-}
-*/
-
 int8_t tictactoe_check(int8_t * gameboard, int win_len){
     int samat = 0, voittaja = 0;
     int voittajat_lkm[2] = {0, 0};
